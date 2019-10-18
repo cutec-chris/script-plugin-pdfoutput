@@ -9,21 +9,20 @@
         <Filename Value="pdfoutput.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="33"/>
-        <CursorPos Y="71"/>
+        <TopLine Value="35"/>
+        <CursorPos X="21" Y="54"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\examples\testfppdf.lpr"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="138"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="..\audio\audio.lpr"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="357"/>
         <CursorPos Y="397"/>
         <UsageCount Value="10"/>
@@ -32,14 +31,13 @@
       <Unit3>
         <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
         <UnitName Value="fpPDF"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="625"/>
         <CursorPos X="15" Y="649"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="15" HistoryIndex="14">
+    <JumpHistory Count="12" HistoryIndex="11">
       <Position1>
         <Filename Value="pdfoutput.lpr"/>
         <Caret Line="27"/>
@@ -61,45 +59,33 @@
         <Caret Line="18" Column="12"/>
       </Position5>
       <Position6>
-        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
-        <Caret Line="722" Column="28" TopLine="701"/>
+        <Filename Value="pdfoutput.lpr"/>
+        <Caret Line="16" Column="17"/>
       </Position6>
       <Position7>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="16" Column="17"/>
+        <Caret Line="29" Column="21" TopLine="4"/>
       </Position7>
       <Position8>
-        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
-        <Caret Line="96" Column="20" TopLine="71"/>
+        <Filename Value="pdfoutput.lpr"/>
+        <Caret Line="28" Column="20" TopLine="4"/>
       </Position8>
       <Position9>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="29" Column="21" TopLine="4"/>
+        <Caret Line="30" Column="13" TopLine="4"/>
       </Position9>
       <Position10>
-        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
-        <Caret Line="1064" Column="30" TopLine="1043"/>
+        <Filename Value="pdfoutput.lpr"/>
+        <Caret Line="36" Column="10" TopLine="16"/>
       </Position10>
       <Position11>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="28" Column="20" TopLine="4"/>
+        <Caret Line="41" Column="27" TopLine="13"/>
       </Position11>
       <Position12>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="30" Column="13" TopLine="4"/>
-      </Position12>
-      <Position13>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="36" Column="10" TopLine="16"/>
-      </Position13>
-      <Position14>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="41" Column="27" TopLine="13"/>
-      </Position14>
-      <Position15>
-        <Filename Value="pdfoutput.lpr"/>
         <Caret Line="40" Column="41" TopLine="18"/>
-      </Position15>
+      </Position12>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

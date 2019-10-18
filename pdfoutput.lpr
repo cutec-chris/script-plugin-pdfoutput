@@ -24,7 +24,11 @@ begin
 end;
 function PDFAddFont(aName : PChar) : Integer;stdcall;
 begin
-  Result := aDoc.AddFont(aName,ExtractFileName(aName));
+  try
+    Result := aDoc.AddFont(aName,ExtractFileName(aName));
+  except
+    Result := -1;
+  end;
 end;
 function PDFSetFont(FontIndex,FontSize : Integer) : Boolean;stdcall;
 begin
@@ -43,8 +47,12 @@ begin
 end;
 function PDFSave(Filename : PChar) : Boolean;stdcall;
 begin
-  aDoc.SaveToFile(Filename);
-  Result := True;
+  try
+    aDoc.SaveToFile(Filename);
+    Result := True;
+  except
+    Result := False;
+  end;
 end;
 procedure ScriptCleanup;
 begin

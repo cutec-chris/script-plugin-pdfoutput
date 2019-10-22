@@ -23,18 +23,18 @@ begin
       aSection := aDoc.Sections.AddSection
     end;
   aPage := aDoc.Pages.AddPage;
-  //aPage.PaperType:=ptA4;
-  Paper.H:=Height;
-  Paper.W:=Width;
-  aPage.Paper := Paper;
   aPage.UnitOfMeasure := uomMillimeters;
+  //aPage.PaperType:=ptA4;
+  Paper.H:=round(mmToPDF(Height));
+  Paper.W:=round(mmToPDF(Width));
+  aPage.Paper := Paper;
   aSection.AddPage(aPage);
   Result := True;
 end;
 function PDFAddFont(aName : PChar) : Integer;stdcall;
 begin
   try
-    if pos('.pdf',lowercase(aName))>0 then
+    if (pos('.ttf',lowercase(aName))>0) or (pos('.otf',lowercase(aName))>0) then
       Result := aDoc.AddFont(aName,ExtractFileName(aName))
     else
       Result := aDoc.AddFont(aName);

@@ -9,9 +9,9 @@
         <Filename Value="pdfoutput.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="19"/>
-        <CursorPos X="5" Y="26"/>
-        <UsageCount Value="21"/>
+        <TopLine Value="5"/>
+        <CursorPos X="33" Y="29"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -32,8 +32,8 @@
         <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
         <UnitName Value="fpPDF"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="629"/>
-        <CursorPos X="15" Y="657"/>
+        <TopLine Value="1266"/>
+        <CursorPos X="17" Y="1290"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -47,119 +47,127 @@
         <Loaded Value="True"/>
       </Unit4>
     </Units>
-    <JumpHistory Count="28" HistoryIndex="27">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="27"/>
+        <Caret Line="36" Column="10" TopLine="16"/>
       </Position1>
       <Position2>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="33" Column="20"/>
+        <Caret Line="41" Column="27" TopLine="13"/>
       </Position2>
       <Position3>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="6" Column="18"/>
+        <Caret Line="40" Column="41" TopLine="18"/>
       </Position3>
       <Position4>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="19" Column="24"/>
+        <Caret Line="54" Column="21" TopLine="35"/>
       </Position4>
       <Position5>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="18" Column="12"/>
+        <Caret Line="7" Column="3"/>
       </Position5>
       <Position6>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="16" Column="17"/>
+        <Filename Value="..\..\..\base\base_scripts\uscripteditor.pas"/>
+        <Caret Line="1002" Column="5" TopLine="978"/>
       </Position6>
       <Position7>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="29" Column="21" TopLine="4"/>
+        <Filename Value="..\..\..\base\base_scripts\uscripteditor.pas"/>
+        <Caret Line="1001" Column="59" TopLine="978"/>
       </Position7>
       <Position8>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="28" Column="20" TopLine="4"/>
+        <Filename Value="..\..\..\base\base_scripts\uscripteditor.pas"/>
+        <Caret Line="994" Column="66" TopLine="978"/>
       </Position8>
       <Position9>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="30" Column="13" TopLine="4"/>
+        <Caret Line="51" TopLine="28"/>
       </Position9>
       <Position10>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="36" Column="10" TopLine="16"/>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
+        <Caret Line="5155" TopLine="5132"/>
       </Position10>
       <Position11>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="41" Column="27" TopLine="13"/>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
+        <Caret Line="4386" TopLine="4375"/>
       </Position11>
       <Position12>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="40" Column="41" TopLine="18"/>
+        <Caret Line="45" Column="15" TopLine="22"/>
       </Position12>
       <Position13>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="54" Column="21" TopLine="35"/>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
+        <Caret Line="658" Column="15" TopLine="636"/>
       </Position13>
       <Position14>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="7" Column="3"/>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
+        <Caret Line="2112" Column="9" TopLine="2108"/>
       </Position14>
       <Position15>
-        <Filename Value="..\..\..\base\base_scripts\uscripteditor.pas"/>
-        <Caret Line="1002" Column="5" TopLine="978"/>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
+        <Caret Line="657" Column="15" TopLine="635"/>
       </Position15>
       <Position16>
-        <Filename Value="..\..\..\base\base_scripts\uscripteditor.pas"/>
-        <Caret Line="1001" Column="59" TopLine="978"/>
+        <Filename Value="pdfoutput.lpr"/>
+        <Caret Line="43" Column="61" TopLine="22"/>
       </Position16>
       <Position17>
-        <Filename Value="..\..\..\base\base_scripts\uscripteditor.pas"/>
-        <Caret Line="994" Column="66" TopLine="978"/>
+        <Filename Value="pdfoutput.lpr"/>
+        <Caret Line="24" Column="83" TopLine="10"/>
       </Position17>
       <Position18>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="51" TopLine="28"/>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
+        <Caret Line="2100" Column="3" TopLine="2084"/>
       </Position18>
       <Position19>
-        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
-        <Caret Line="5155" TopLine="5132"/>
+        <Filename Value="pdfoutput.lpr"/>
+        <Caret Line="30" Column="8" TopLine="7"/>
       </Position19>
       <Position20>
-        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
-        <Caret Line="4386" TopLine="4375"/>
+        <Filename Value="pdfoutput.lpr"/>
+        <Caret Line="28" Column="6" TopLine="7"/>
       </Position20>
       <Position21>
         <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="45" Column="15" TopLine="22"/>
+        <Caret Line="17" Column="18" TopLine="7"/>
       </Position21>
       <Position22>
         <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
-        <Caret Line="658" Column="15" TopLine="636"/>
+        <Caret Line="96" Column="21" TopLine="70"/>
       </Position22>
       <Position23>
-        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
-        <Caret Line="2112" Column="9" TopLine="2108"/>
+        <Filename Value="pdfoutput.lpr"/>
+        <Caret Line="29" Column="33" TopLine="7"/>
       </Position23>
       <Position24>
-        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
-        <Caret Line="657" Column="15" TopLine="635"/>
+        <Filename Value="pdfoutput.lpr"/>
+        <Caret Line="25" Column="24" TopLine="5"/>
       </Position24>
       <Position25>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="43" Column="61" TopLine="22"/>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
+        <Caret Line="819" Column="28" TopLine="796"/>
       </Position25>
       <Position26>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="24" Column="83" TopLine="10"/>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
+        <Caret Line="716" Column="33" TopLine="694"/>
       </Position26>
       <Position27>
         <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
-        <Caret Line="2100" Column="3" TopLine="2084"/>
+        <Caret Line="83" Column="3" TopLine="59"/>
       </Position27>
       <Position28>
-        <Filename Value="pdfoutput.lpr"/>
-        <Caret Line="30" Column="8" TopLine="7"/>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
+        <Caret Line="716" Column="28" TopLine="680"/>
       </Position28>
+      <Position29>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-pdf\src\fppdf.pp"/>
+        <Caret Line="2467" Column="23" TopLine="2460"/>
+      </Position29>
+      <Position30>
+        <Filename Value="pdfoutput.lpr"/>
+        <Caret Line="29" Column="26" TopLine="5"/>
+      </Position30>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

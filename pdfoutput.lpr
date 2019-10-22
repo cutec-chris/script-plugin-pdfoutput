@@ -10,22 +10,34 @@ uses
 var
   aDoc : TPDFDocument;
   aPage: TPDFPage;
+  aSection: TPDFSection;
 
 function PDFCreatePage(Width,Height : Integer) : Boolean;stdcall;
 var
   Paper : TPDFPaper;
 begin
-  if not Assigned(aDoc) then aDoc := TPDFDocument.Create(nil);
+  if not Assigned(aDoc) then
+    begin
+      aDoc := TPDFDocument.Create(nil);
+      aDoc.StartDocument;
+      aSection := aDoc.Sections.AddSection
+    end;
   aPage := aDoc.Pages.AddPage;
+  //aPage.PaperType:=ptA4;
   Paper.H:=Height;
   Paper.W:=Width;
   aPage.Paper := Paper;
+  aPage.UnitOfMeasure := uomMillimeters;
+  aSection.AddPage(aPage);
   Result := True;
 end;
 function PDFAddFont(aName : PChar) : Integer;stdcall;
 begin
   try
-    Result := aDoc.AddFont(aName,ExtractFileName(aName));
+    if pos('.pdf',lowercase(aName))>0 then
+      Result := aDoc.AddFont(aName,ExtractFileName(aName))
+    else
+      Result := aDoc.AddFont(aName);
   except
     Result := -1;
   end;
@@ -42,8 +54,12 @@ begin
 end;
 function PDFWriteText(x,y : double;Text : PChar) : Boolean;stdcall;
 begin
-  aPage.WriteText(x,y,Text,0,false,false);
-  Result := True;
+  try
+    aPage.WriteText(x,y,Text,0,false,false);
+    Result := True;
+  except
+    Result := False;
+  end;
 end;
 function PDFSave(Filename : PChar) : Boolean;stdcall;
 begin
